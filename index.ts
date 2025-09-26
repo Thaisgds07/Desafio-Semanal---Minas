@@ -67,9 +67,9 @@ for (const aluno of alunos) {
     const curso = nomeCurso(aluno.cursoId);
     aluno.mensagem = estiloAprendizado(aluno);
 
-console.log("Nome", aluno.nome);
-console.log("Curso:", curso);
-console.log("Média:", media.toFixed(2));
-console.log("Mensagem:", aluno.mensagem);
-console.log("----------------------------");
+    console.log("Nome", aluno.nome);
+    console.log("Curso:", curso);
+    console.log("Média:", media.toFixed(2));
+    console.log("Mensagem:", aluno.mensagem);
+    console.log("----------------------------");
 };
